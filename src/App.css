@@ -1,0 +1,32 @@
+.container{
+  width: 600px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.trCon{
+  margin-top: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+}
+
+.tdCon{
+  display: flex;
+}
+
+.tdCon button{
+  padding: 5px 8px;
+  margin-right: 5px;
+}
